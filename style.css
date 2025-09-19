@@ -1,0 +1,111 @@
+.logo{
+    font-family:"Sofia", sans-serif;
+    margin-right: 0;
+  }
+  .logo img{
+    width: 80px;
+   }
+
+  .loginbtn{
+    background-color: rgb(103, 201, 5);
+    
+  }
+   .loginbtn:hover{
+    background-color: aqua;
+    color: black;
+   }
+   .logoutbtn{
+    background-color: rgb(245, 32, 4);
+    
+   }
+   .logoutbtn:hover{
+    background-color: rgb(221, 6, 28);
+   }
+   .navbar_area{
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    width: 100%;
+    z-index: 12;
+    background:rgba(222, 222, 220, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   .banner{
+    width: 100%;
+    position: relative;
+    background:rgba(255 255, 255, 0.7);
+    height: 100vh;
+    overflow: hidden;
+   }
+   .banner img{
+    width: 100%;
+   }
+   .abou_uspic img{
+    width: 100%;
+    max-height: 60vh;
+   }
+ .ft{
+     font-family: "Audiowide, sans-serif";
+    color: rgb(60, 9, 227);
+  }
+  #btn1:hover{
+    background-color: greenyellow;
+  }
+  .btnreadmore:hover{
+    background-color: rgb(6, 13, 209) !important;
+    color: aliceblue;
+  }
+  .wtr{
+    background: radial-gradient(
+    circle at 100%,
+    #fd3a04,
+    #ffde04 75%,
+    #fd3a04 75%,
+    #ffd504 75%
+  );
+  font-weight: 600;
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 2s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+  to {
+    background-position: 200% center;
+  }
+  }
+
+ .Our_Services{
+     font-family: "Sofia", sans-serif;
+    color: rgb(60, 9, 227);
+    background: radial-gradient(
+    circle at 100%,
+    #fd3a04,
+    #0ee703 75%,
+    #f6e203 75%,
+    #1206b3 75%
+  );
+  font-weight: 600;
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 2s linear infinite;
+ }
+
+ .fts{
+   font-family: "Audiowide";
+   font-weight: 600;
+    color: rgb(5, 49, 132);
+ }
+
+ .btnreadmore2{
+  background-color: #6e63fd !important;
+  color: aliceblue;
+ }
+
+ .btnreadmore2:hover{
+  background-color: #0b0656 !important;
+ }
